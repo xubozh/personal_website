@@ -1,181 +1,135 @@
-# Modern Website Framework
+# Hubert Zhang - Personal Portfolio Website
 
-A responsive, modern website framework built with HTML5, CSS3, and vanilla JavaScript. This framework provides a solid foundation for creating beautiful, professional websites with excellent user experience.
+A modern, responsive personal portfolio website showcasing my skills, projects, and experience as a software engineer.
 
-## 🚀 Features
+## 👨‍💻 About Me
 
-### Design & Layout
-- **Responsive Design**: Fully responsive layout that works on all devices
-- **Modern UI**: Clean, professional design with smooth animations
-- **CSS Grid & Flexbox**: Modern layout techniques for optimal positioning
-- **Typography**: Beautiful typography using Inter font family
-- **Color Scheme**: Professional color palette with blue accent colors
+Hello! I'm **Hubert Zhang**, a software engineer passionate about creating innovative solutions and building impactful applications. This website serves as my digital portfolio, showcasing my technical skills, projects, and professional journey.
 
-### Navigation
-- **Fixed Navigation**: Sticky navigation bar with backdrop blur effect
+## 🌟 Website Features
+
+### **Multi-Page Architecture**
+- **Home**: Landing page with introduction and download CV option
+- **Education**: Academic background at University of Michigan with relevant coursework
+- **Projects**: Showcase of technical projects and applications
+- **Experience**: Professional work experience and technical skills
+- **About**: Personal background and professional summary
+- **Contact**: Professional contact information and contact form
+
+### **Design & User Experience**
+- **Modern Dark Theme**: Professional dark color scheme with gold accents
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: Scroll-triggered animations and hover effects
+- **Interactive Elements**: Form validation, loading states, and user feedback
+- **Professional Typography**: Clean, readable fonts using Inter font family
+
+### **Technical Features**
+- **Contact Form**: Functional contact form with Formspree integration
+- **Navigation**: Fixed navigation with active page highlighting
 - **Mobile Menu**: Hamburger menu for mobile devices
-- **Smooth Scrolling**: Smooth scrolling to sections
-- **Active States**: Navigation links highlight current section
+- **Loading Animations**: Smooth page transitions and loading states
+- **SEO Optimized**: Semantic HTML structure and meta tags
 
-### Sections
-- **Hero Section**: Eye-catching landing area with call-to-action buttons
-- **About Section**: Company information with animated statistics
-- **Services Section**: Service cards with hover effects
-- **Contact Section**: Contact form with validation and contact information
-- **Footer**: Comprehensive footer with social links and site navigation
+## 🛠️ Technologies Used
 
-### Interactive Features
-- **Scroll Animations**: Elements fade in as you scroll
-- **Hover Effects**: Interactive hover states throughout
-- **Form Validation**: Contact form with email validation
-- **Notifications**: Toast notifications for form submissions
-- **Loading Animation**: Initial page loading animation
-- **Counter Animation**: Animated statistics counters
+- **HTML5**: Semantic markup and modern web standards
+- **CSS3**: Advanced styling with Flexbox, Grid, and animations
+- **JavaScript (ES6+)**: Interactive functionality and form handling
+- **Font Awesome**: Professional icons and visual elements
+- **Google Fonts**: Inter font family for typography
+- **Formspree**: Contact form functionality and email delivery
 
-### Performance
-- **Optimized CSS**: Efficient CSS with minimal redundancy
-- **Vanilla JavaScript**: No external dependencies
-- **Fast Loading**: Optimized for quick page loads
-- **SEO Friendly**: Semantic HTML structure
-
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 personal-website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and responsive design
+├── index.html          # Home page
+├── about.html          # About page
+├── education.html      # Education page
+├── projects.html       # Projects showcase
+├── experience.html     # Work experience
+├── contact.html        # Contact page
+├── styles.css          # Main stylesheet
 ├── script.js           # JavaScript functionality
-└── README.md           # Documentation
+├── umich.png          # University of Michigan logo
+└── README.md          # Project documentation
 ```
 
-## 🛠️ Getting Started
+## 🚀 Live Website
 
-1. **Clone or Download**: Get the framework files
-2. **Customize Content**: Update the HTML content in `index.html`
-3. **Modify Styling**: Adjust colors, fonts, and layout in `styles.css`
-4. **Add Functionality**: Extend JavaScript features in `script.js`
-5. **Deploy**: Upload to your web server
+Visit my portfolio at: **https://xubozh.github.io/personal_wesite/**
+
+## 📧 Contact Information
+
+- **Email**: hubertxzhang@gmail.com
+- **GitHub**: [github.com/xubozh](https://github.com/xubozh)
+- **LinkedIn**: [linkedin.com/in/hubert-zhang-a5b711378](https://www.linkedin.com/in/hubert-zhang-a5b711378/)
+
+## 🎯 Key Sections
+
+### **Education**
+- **University of Michigan** - Computer Science
+- Relevant coursework in algorithms, data structures, and software engineering
+- Academic projects and achievements
+
+### **Projects**
+- **E-commerce Platform**: Full-stack web application
+- **Task Management App**: React-based productivity tool
+- **Weather Dashboard**: Real-time weather data visualization
+- **AI Chat Assistant**: Machine learning-powered chatbot
+- **Cloud Infrastructure Manager**: DevOps and cloud management tool
+- **Multiplayer Game Engine**: Real-time gaming platform
+
+### **Experience**
+- Professional work experience in software development
+- Technical skills in various programming languages and frameworks
+- Industry experience and project management
+
+## 🔧 Development & Deployment
+
+### **Local Development**
+```bash
+# Clone the repository
+git clone https://github.com/xubozh/personal_wesite.git
+
+# Open in browser
+# Simply open index.html in your web browser
+# Or use a local server:
+python -m http.server 8000
+```
+
+### **Deployment**
+- **Hosted on**: GitHub Pages
+- **Domain**: https://xubozh.github.io/personal_wesite/
+- **Auto-deploy**: Updates automatically when code is pushed to main branch
 
 ## 🎨 Customization
 
-### Colors
-The main color scheme is defined in the CSS variables. You can easily change the colors by modifying these values in `styles.css`:
+The website uses a consistent dark theme with:
+- **Primary Background**: Dark gray (#111827)
+- **Secondary Background**: Lighter dark (#1f2937)
+- **Accent Color**: Gold (#ffd700)
+- **Text Colors**: White and light gray variations
 
-```css
-/* Primary Colors */
---primary-color: #2563eb;
---primary-dark: #1d4ed8;
---secondary-color: #667eea;
---accent-color: #764ba2;
-```
-
-### Typography
-The framework uses the Inter font family. You can change fonts by updating the Google Fonts link in the HTML head and the font-family property in CSS.
-
-### Layout
-The layout uses CSS Grid and Flexbox for responsive design. Modify the grid templates and flex properties to adjust the layout structure.
-
-## 📱 Responsive Breakpoints
+## 📱 Responsive Design
 
 - **Desktop**: 1200px and above
 - **Tablet**: 768px - 1199px
 - **Mobile**: Below 768px
 - **Small Mobile**: Below 480px
 
-## 🔧 Browser Support
+## 🔍 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-- Internet Explorer 11+
+- Mobile browsers
 
-## 📝 Usage Examples
+## 📝 License
 
-### Adding a New Section
-```html
-<section id="new-section" class="new-section">
-    <div class="container">
-        <h2 class="section-title">New Section</h2>
-        <div class="section-content">
-            <!-- Your content here -->
-        </div>
-    </div>
-</section>
-```
-
-### Adding Custom CSS
-```css
-.new-section {
-    background: #f8fafc;
-    padding: 80px 0;
-}
-
-.section-content {
-    /* Your styles here */
-}
-```
-
-### Adding JavaScript Functionality
-```javascript
-// Your custom JavaScript code
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize your features
-});
-```
-
-## 🚀 Deployment
-
-### Local Development
-1. Open `index.html` in your browser
-2. Use a local server for better development experience:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   ```
-
-### Web Hosting
-Upload all files to your web hosting provider:
-- Shared hosting: Upload via FTP/cPanel
-- VPS/Cloud: Deploy using your preferred method
-- CDN: Use services like Netlify, Vercel, or GitHub Pages
-
-## 🔍 SEO Optimization
-
-The framework includes:
-- Semantic HTML structure
-- Meta tags for social sharing
-- Proper heading hierarchy
-- Alt text for images
-- Fast loading times
-
-## 📊 Performance Tips
-
-1. **Optimize Images**: Use WebP format and appropriate sizes
-2. **Minify CSS/JS**: Compress files for production
-3. **Use CDN**: Serve fonts and icons from CDN
-4. **Enable Caching**: Set appropriate cache headers
-5. **Compress Files**: Use gzip compression
-
-## 🤝 Contributing
-
-Feel free to customize and extend this framework for your projects. The code is well-commented and organized for easy modification.
-
-## 📄 License
-
-This framework is open source and available under the MIT License.
-
-## 🆘 Support
-
-For questions or issues:
-1. Check the code comments for guidance
-2. Review browser console for errors
-3. Test on different devices and browsers
-4. Validate HTML and CSS
+This project is open source and available under the MIT License.
 
 ---
 
-**Happy Coding! 🎉** 
+**Built with ❤️ by Hubert Zhang** 
